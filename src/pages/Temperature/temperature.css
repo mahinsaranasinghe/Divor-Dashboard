@@ -1,0 +1,19 @@
+.Temperature{
+    flex: 3.8;
+    padding: 10px 50px ;
+    margin-top: 60px;
+    position: sticky;
+ 
+    
+}
+
+.summary{
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(126, 126, 126);
+    cursor: pointer;
+    position:absolute;
+    margin-top: 0px;
+    margin-left: 325px;
+    
+}
