@@ -5,7 +5,7 @@ export default function FeaturedInfo() {
     return (
         <>
         <div className="summary_title">
-            Summary Report
+            Hello
         </div>
 
         <div className="featured">
