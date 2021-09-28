@@ -8,33 +8,6 @@ export default function Humidity() {
         <div className="summary_humidity" >
             Summarized Humidity
         
-
-            <div className="Humidity">
-                <Chart
-                    width={'1000px'}
-                    height={'800px'}
-                    chartType="PieChart"
-                    loader={<div>Loading Chart</div>}
-                    data={[
-                        ['Day', 'Humidity'],
-                        ['Monday', 35],
-                        ['Tuesday', 19],
-                        ['Wednesday', 24],
-                        ['Thursday', 31],
-                        ['Friday', 28],
-                        ['Saturday', 22],
-                        ['Sunday', 36],
-                    ]}
-                    
-                    options={{
-                        title: 'Humidity variation',
-                    }}
-                    rootProps={{ 'data-testid': '1' }}
-                />
-                
-            </div>
-
-
             <div className="barChart" >
                 
                 <Chart
@@ -64,6 +37,31 @@ export default function Humidity() {
                     rootProps={{ 'data-testid': '3' }}
                 />          
             </div> 
+            
+            <div className="Humidity">
+                <Chart
+                    width={'1000px'}
+                    height={'800px'}
+                    chartType="PieChart"
+                    loader={<div>Loading Chart</div>}
+                    data={[
+                        ['Day', 'Humidity'],
+                        ['Monday', 35],
+                        ['Tuesday', 19],
+                        ['Wednesday', 24],
+                        ['Thursday', 31],
+                        ['Friday', 28],
+                        ['Saturday', 22],
+                        ['Sunday', 36],
+                    ]}
+                    
+                    options={{
+                        title: 'Humidity variation',
+                    }}
+                    rootProps={{ 'data-testid': '1' }}
+                />
+                
+            </div>
 
         </div>
 
