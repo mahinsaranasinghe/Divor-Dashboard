@@ -1,5 +1,5 @@
 import "./sidebar.css"
-import {LineStyle,HotTub, InvertColors, HelpOutline, AcUnit, SettingsRemote, Tune} from '@material-ui/icons';
+import {Home,HotTub, InvertColors, HelpOutline, AcUnit, SettingsRemote, Tune} from '@material-ui/icons';
 import { Link } from "react-router-dom";
 
 
@@ -14,7 +14,7 @@ export default function Sidebar() {
                     <ul className="sidebarList">
                         <Link to="/" className="link">
                         <li className="sidebarListItem">
-                            <LineStyle className="sidebarIcon"/>
+                            <Home className="sidebarIcon"/>
                             Home
                         </li>                        
                         </Link>

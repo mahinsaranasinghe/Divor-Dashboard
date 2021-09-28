@@ -66,9 +66,9 @@ export default function Chart() {
         <div className="chartItem">
 
               
-          <h3 className="classTitle">Exterior temperature variation</h3>
+          <h4 className="classTitle">Exterior temperature variation</h4>
 
-          <ResponsiveContainer width="100%" aspect={2 / 1}>
+          <ResponsiveContainer  width="100%" aspect={2 / 1}>
           <LineChart data={data}>
             <XAxis dataKey="name" stroke="#5550bd"/>
             <YAxis/>                     
