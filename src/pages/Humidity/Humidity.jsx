@@ -12,7 +12,7 @@ export default function Humidity() {
                 
                 <Chart
                     width={'1000px'}
-                    height={'600px'}
+                    height={'400px'}
                     chartType="BarChart"
                     loader={<div>Loading Chart</div>}
                     data={[
@@ -40,8 +40,8 @@ export default function Humidity() {
             
             <div className="Humidity">
                 <Chart
-                    width={'1000px'}
-                    height={'800px'}
+                    width={'800px'}
+                    height={'400px'}
                     chartType="PieChart"
                     loader={<div>Loading Chart</div>}
                     data={[

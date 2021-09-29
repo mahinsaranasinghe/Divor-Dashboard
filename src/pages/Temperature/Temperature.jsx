@@ -12,6 +12,7 @@ export default function Temperature() {
           /*type: 'number',*/
           width: 250,
         },
+        
       
       ];
       

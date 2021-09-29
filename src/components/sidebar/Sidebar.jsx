@@ -8,32 +8,35 @@ export default function Sidebar() {
         <div className="sidebar">
             <div className="sidebarWrapper">
                 <div className="sidebarMenu">
-                    <h3 className="sidebarTitle">
-                        Dashboard
-                    </h3>
-                    <ul className="sidebarList">
-                        <Link to="/" className="link">
-                        <li className="sidebarListItem">
-                            <Home className="sidebarIcon"/>
-                            Home
-                        </li>                        
-                        </Link>
+                    <div>
+                        <h3 className="sidebarTitle">
+                            Dashboard
+                        </h3>
+                        <ul className="sidebarList">
+                            <Link to="/" className="link">
+                            <li className="sidebarListItem">
+                                <Home className="sidebarIcon"/>
+                                Home
+                            </li>                        
+                            </Link>
 
-                        <Link to="/Temperature" className="link">
-                        <li className="sidebarListItem">
-                            <HotTub className="sidebarIcon"/>
-                            Temperature
-                        </li>
-                        </Link>
+                            <Link to="/Temperature" className="link">
+                            <li className="sidebarListItem">
+                                <HotTub className="sidebarIcon"/>
+                                Temperature
+                            </li>
+                            </Link>
 
-                        <Link to="/Humidity" className="link">
-                        <li className="sidebarListItem">
-                            <InvertColors className="sidebarIcon"/>
-                            Humidity
-                        </li>
-                        </Link>
+                            <Link to="/Humidity" className="link">
+                            <li className="sidebarListItem">
+                                <InvertColors className="sidebarIcon"/>
+                                Humidity
+                            </li>
+                            </Link>
 
-                    </ul>
+                        </ul>
+                    </div>
+                    
                     
                 </div>
 
